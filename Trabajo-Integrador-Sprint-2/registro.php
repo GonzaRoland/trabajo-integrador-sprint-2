@@ -2,6 +2,11 @@
 
 include_once('funciones.php');
 
+if (!$_GET) {
+    header('Location: dogo.php?pagina=registro');
+}
+    
+
 $nombre = "";
 $apellido = "";
 $genero = "";

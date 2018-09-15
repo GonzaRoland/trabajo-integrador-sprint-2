@@ -1,4 +1,10 @@
+<?PHP
 
+if (!$_GET) {
+    header('Location: dogo.php?pagina=frecuentes');
+}
+
+?>
 
                         <section class="banner-frecuentes">
                             <img src="img/bannerspring_frecuentes_c.png">

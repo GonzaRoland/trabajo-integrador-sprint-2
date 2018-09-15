@@ -1,6 +1,11 @@
 <?php
+if (!$_GET) {
+    header('Location: dogo.php?pagina=perfil');
+}
 
 include_once('funciones.php');
+
+
 
 if (loginController() == true) {
 

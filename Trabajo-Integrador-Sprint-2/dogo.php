@@ -6,7 +6,7 @@ if ($_GET) {
 $pagina = __DIR__.'//'. $_GET['pagina'].'.php';}
 else {
     header('Location: dogo.php?pagina=main');
-}
+}   
 
 if (loginController() == true) {
     if($_SESSION)

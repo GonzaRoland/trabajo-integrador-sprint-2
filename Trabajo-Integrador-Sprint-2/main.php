@@ -1,5 +1,11 @@
 
-            
+            <?PHP
+
+if (!$_GET) {
+    header('Location: dogo.php?pagina=main');
+}
+
+?>
             <div class="main-banner">
                 <img src="img/bannerspring_main_c.png">
             </div>
